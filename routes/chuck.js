@@ -9,4 +9,4 @@ router.get("/", async (req, res) => {
   res.send(response.data.value);
 });
 
-module.export = router;
+module.exports = router;
