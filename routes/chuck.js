@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 
-const express = express.Router();
+const router = express.Router();
 
 router.get("/", async (req, res) => {
   const response = await axios.get("https://api.chucknorris.io/ ");
